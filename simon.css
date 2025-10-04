@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+    background-image: url('simon.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 25%;
+    border: 2px solid black;
+    margin: 10px;
+    cursor: pointer;
+}
+
+h4 {
+    text-align: right;
+    padding-right: 75px;
+}
+
+.btn:hover {
+    box-shadow: 0 12px 24px rgba(2, 7, 4, 0.3);
+    transform: translateY(-5px);
+    /* Optional: adds a slight lift */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.flash {
+    background-color: antiquewhite;
+}
+
+.userflash {
+    background-color: green;
+}
+
+.worng {
+    background-color: red;
+}
+
+body {
+    background-image: -webkit-image-set(https: //www.google.com/url?sa=i&url=https%3A%2F%2Fwww.britannica.com%2Fbiography%2FLionel-Messi&psig=AOvVaw1xzM3WCVec2GkFZjl8TtXt&ust=1744723003933000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNC5u-fN14wDFQAAAAAdAAAAABAE);
+}
